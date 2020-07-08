@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  Tahoma ;
+    font-size:x-large;
+    line-height: 100px;
+    color:rgb(35, 36, 34);
+    background-color:rgb(79, 117, 79);
+}
+
+.status {
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.square {
+    background:rgb(210, 224, 85);
+    border: 1px solid rgb(60, 107, 60);
+    float:left;
+    font-size: 43px;
+    font-weight: bold;
+    line-height: 34px;
+    height:70px;
+    margin-right:1.5px;
+    margin-top:1.5px;
+    padding: 0;
+    text-align:center;
+    width: 70px;
+    border-radius:2.5px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+
+.game-info {
+    margin-left: 20px;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
